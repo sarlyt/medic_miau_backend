@@ -13,5 +13,6 @@ module.exports = (sequelize, type)=>{
         cedula:type.INTEGER,
         dias_atencion: type.STRING,
         horarios: type.STRING,
+        about:type.STRING,
     });
 }
