@@ -1,4 +1,3 @@
-const { Type } = require("react-feather");
 
 module.exports = (sequelize, type)=>{
     return sequelize.define('consulta',{
